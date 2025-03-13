@@ -1,0 +1,44 @@
+{
+  "Get Element by id": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "getid",
+    "body": "const ${1:name} = document.getElementById('$2');",
+    "description": "DOM Operation: Get Element by id"
+  },
+  "Get Elements by ClassName": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "getcl",
+    "body": "const ${1:name} = document.getElementsByClassName('$2');",
+    "description": "DOM Operation: Get Elements by ClassName"
+  },
+  "Add Event-Listener": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": ".addev",
+    "body": [".addEventListener('${1:click}', ($2) => {", "\t$3", "});"],
+    "description": "Add Event-Listener"
+  },
+  "Arrow Function": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "func()=>",
+    "body": ["const ${1:name} = ($2) => {", "\t$3", "};"],
+    "description": "Arrow Function"
+  },
+  "Function Statement": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "func()",
+    "body": ["function ${1:name}($2) {", "\t$3", "};"],
+    "description": "Function Statement"
+  },
+  "Ternary (Conditional) Operator": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "3?:",
+    "body": "${1:i === 0} ? '${2:if-true}' : '${3:if-false}'",
+    "description": "Ternary Operator（condition ? exprIfTrue : exprIfFalse）"
+  },
+  "Query Selector": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "qs",
+    "body": "const ${1:name} = document.querySelector('${2:.class}');",
+    "description": "Ternary Operator（condition ? exprIfTrue : exprIfFalse）"
+  }
+}

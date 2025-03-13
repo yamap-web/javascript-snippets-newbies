@@ -1,0 +1,31 @@
+{
+  "name": "javascript-snippets-newbies",
+  "displayName": "JavaScript Code Snippets for Newbies",
+  "description": "This is an extension that aggregates basic JavaScript code snippets for newbies.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "publisher": "yamapzp",
+  "keywords": [
+    "javascript",
+    "snippets",
+    "vscode"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yamap-web/javascript-snippets-newbies.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'javascript', 'typescript', 'javascriptreact', 'typescriptreact'",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
