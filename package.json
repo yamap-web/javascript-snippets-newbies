@@ -2,7 +2,7 @@
   "name": "javascript-snippets-newbies",
   "displayName": "JavaScript Code Snippets for Newbies",
   "description": "This is an extension that aggregates basic JavaScript code snippets for newbies.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -23,7 +23,19 @@
   "contributes": {
     "snippets": [
       {
-        "language": "'javascript', 'typescript', 'javascriptreact', 'typescriptreact'",
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
